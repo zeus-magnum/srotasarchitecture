@@ -1,0 +1,230 @@
+body{
+    overflow-x: hidden;
+    margin-bottom: auto;
+}
+
+
+.img-fluid{
+  max-width: 50%;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+
+}
+
+#main_text{
+    font-family:  Arial, Helvetica, sans-serif;
+}
+
+.author_name{
+    margin-top: 1%;;
+    margin-bottom: 1%;
+}
+
+.h5{
+  margin-top: 0;
+  font-size:0.5vw;
+}
+.h3{
+  font-size:0.5vw;
+}
+
+.p{
+  margin:auto;
+  font-size:0.8vw;
+ 
+}
+
+
+footer{
+  background-color: #FFFFFF;
+  margin-top: 1%;
+  margin-bottom: auto;
+}
+
+
+.fa-at,.det,.fa-phone{
+  font-size: 20px;
+}
+
+
+
+/* Style all font awesome icons */
+.fa-facebook,.fa-map-marker,.fa-instagram, .fa-linkedin{
+    padding: 5px;
+    font-size: 15px;
+    text-align: center;
+    text-decoration: none;
+  }
+  
+  /* Add a hover effect if you want */
+  .fa-facebook,.fa-map-marker,.fa-instagram, .fa-linkedin{
+    opacity: 0.95;
+  }
+
+  .fa-facebook:hover{
+    background:rgb(40,103,178);
+    color: white;
+    border-radius: 15%;
+  }
+
+ .det:hover{
+    color: rgb(255, 0, 0);  
+    border-radius: 15%;
+  }
+
+  .fa-instagram:hover{
+    background-image: linear-gradient(45deg, #405DE6, #5851DB, #833AB4, #C13584, #E1306C, #FD1D1D);
+    color: #FFFFFF;  
+    border-radius: 15%;
+  }
+
+  .fa-linkedin:hover{
+    color: white;
+    border-radius: 15%;
+    background-color: #3B5998;
+
+  }
+
+  
+  
+  /* Set a specific color for each brand */
+  
+  /* Facebook */
+  .fa-facebook {
+    background:white;
+    color: rgb(0, 0, 0);
+  }
+  
+  /* Twitter */
+  .fa-map-marker {
+    background: #ffffff00;  
+    color: rgb(0, 0, 0);
+    border-color: rgb(255, 0, 0);
+    border-width: 10px; 
+ 
+  }
+
+  /* Intagram */
+  .fa-instagram {  
+    background: #ffffff00;  
+    color: rgb(0, 0, 0);  
+  }  
+
+  .fa-linkedin{
+    background:white;
+    color: rgb(0, 0, 0);
+    
+  }
+
+  .fa-icon{
+   font-size:2vw;
+  }
+
+
+
+  @media only screen and (max-width: 550px) {
+    body {
+      overflow: hidden;
+    }
+
+    .img-fluid{
+      max-width: 100%;
+      margin-left: auto;
+      margin-right: auto;
+      display: block;
+    
+    }
+
+
+    .author_name{
+      margin-top: 1%;;
+      margin-bottom: 1%;
+      font-size: 5vw;
+    }
+
+  
+    .main_details{
+      margin:auto;
+      font-size:2.75vw;
+      margin-top: 5%;
+      margin-bottom: 5%;
+   
+    }
+
+    .details{
+      font-size:3vw;
+      margin-top: 10%;
+   
+    }
+  
+  
+  
+    .footer{
+      background-color: #FFFFFF;
+      margin-top: 1%;
+      margin-bottom: auto;
+    }
+  
+  
+    .fa-at,.det,.fa-phone{
+      font-size: 20px;
+    }
+  
+  
+  
+  /* Style all font awesome icons */
+  .fa-facebook,.fa-map-marker,.fa-instagram, .fa-linkedin{
+      padding: 5px;
+      font-size: 15px;
+      text-align: center;
+      text-decoration: none;
+    }
+    
+    /* Add a hover effect if you want */
+    .fa-facebook,.fa-map-marker,.fa-instagram, .fa-linkedin{
+      opacity: 0.95;
+    }
+    
+    /* Set a specific color for each brand */
+    
+    /* Facebook */
+    .fa-facebook {
+      background:white;
+      color: rgb(0, 0, 0);
+    }
+    
+    /* Twitter */
+    .fa-map-marker {
+      background: #ffffff00;  
+      color: rgb(0, 0, 0);
+      border-width: 10px; 
+   
+    }
+  
+    /* Intagram */
+    .fa-instagram {  
+      background: #ffffff00;  
+      color: rgb(0, 0, 0);  
+    }  
+  
+    .fa-linkedin{
+      background:white;
+      color: rgb(0, 0, 0);
+      
+    }
+
+    .fa-icon{
+      font-size:5vw;
+     }
+  
+  }
+
+/*http://www.instagram.com/srotas_architectural_studio
+
+
+/*https://m.facebook.com/107576171703946/
+
+
+/*https://maps.app.goo.gl/wZSb2mHSzrerhxLKA
+
